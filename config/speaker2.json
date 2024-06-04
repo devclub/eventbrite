@@ -1,0 +1,152 @@
+{
+  "days": [
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+    "Воскресенье"
+  ],
+  "background": "images/poster_bg.png",
+  "logo": {
+    "image": "images/logo_eu.png",
+    "width": 600,
+    "height": 312,
+    "position": [
+      2885,
+      30
+    ]
+  },
+  "title": {
+    "position": [
+      1160,
+      80
+    ],
+    "font": {
+      "name": "fonts/OpenSans-Regular.ttf",
+      "size": 210
+    },
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "sub_font": {
+      "name": "fonts/OpenSans-ExtraBold.ttf",
+      "size": 210
+    },
+    "sub_color": [
+      254,
+      192,
+      19
+    ]
+  },
+  "address": {
+    "font": {
+      "name": "fonts/OpenSans-Regular.ttf",
+      "size": 50
+    },
+    "place_position": [
+      1180,
+      300
+    ],
+    "position": [
+      1180,
+      380
+    ],
+    "color": [
+      255,
+      255,
+      255
+    ]
+  },
+  "date_box": {
+    "image": "images/poster_box.png",
+    "width": 1264,
+    "height": 137,
+    "position": [
+      1180,
+      465
+    ],
+    "font": {
+      "name": "fonts/OpenSans-Bold.ttf",
+      "size": 70
+    },
+    "color": [
+      255,
+      255,
+      255
+    ]
+  },
+  "avatar": {
+    "width": 750,
+    "height": 750,
+    "background_color": [
+      255, 255, 255
+    ],
+    "block_background_color": [
+      254,
+      192,
+      19
+    ],
+    "block_name_height": 100,
+    "block_title_height": 70,
+    "name_font": {
+      "name": "fonts/OpenSans-Bold.ttf",
+      "size": 70
+    },
+    "title_font": {
+      "name": "fonts/OpenSans-Bold.ttf",
+      "size": 40
+    },
+    "name_color": [
+      32,
+      43,
+      89
+    ],
+    "title_color": [
+      255,
+      255,
+      255
+    ],
+    "position": [
+      [
+        180,
+        80
+      ],
+      [
+        180,
+        950
+      ]
+    ]
+  },
+  "subject": {
+    "prefix": "• ",
+    "font": {
+      "name": "fonts/OpenSans-Regular.ttf",
+      "size": 80
+    },
+    "characters_per_line": 50,
+    "position": [
+      1160,
+      735
+    ],
+    "color": [
+      255,
+      255,
+      255
+    ]
+  },
+  "sponsors": {
+    "max_width": 2200,
+    "space": 10,
+    "left": 1180,
+    "bottom": 1700,
+    "color": [
+      255,
+      255,
+      255
+    ]
+  }
+}

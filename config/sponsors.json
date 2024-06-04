@@ -1,0 +1,44 @@
+{
+   "companies": [
+    {
+      "name": "Wise",
+      "logo": "images/sponsors/wise_green.png",
+      "url": "https://wise.com"
+    },
+    {
+      "name": "Codeborne",
+      "logo": "images/sponsors/codeborne.png",
+      "url": "https://codeborne.com"
+    },
+    {
+      "name": "Wisercat Estonia OÜ",
+      "logo": "images/sponsors/wisercat2.png",
+      "url": "https://www.wisercat.eu"
+    },
+    {
+      "name": "Bally Estonia OÜ",
+      "logo": "images/sponsors/ballys-red.png",
+      "url": "https://careers.ballysinteractive.com/"
+    },
+    {
+      "name": "XData Group",
+      "logo": "images/sponsors/xdatagroup.png",
+      "url": "https://xdatagroup.io"
+    },
+    {
+      "name": "StiltSoft",
+      "logo": "images/sponsors/stiltsoft.png",
+      "url": "https://stiltsoft.com"
+    },
+    {
+      "name": "JetBrains",
+      "logo": "images/sponsors/jetbrains.png",
+      "url": "https://www.jetbrains.com"
+    },
+    {
+      "name": "DPK-IT OÜ",
+      "logo": "images/sponsors/dpkitoy.jpg",
+      "url": "http://www.dmitrik.com"
+    }
+  ]
+}
