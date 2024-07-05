@@ -87,6 +87,22 @@ class Eventbrite:
         return self._post(f'https://www.eventbriteapi.com/v3/organizations/{organization_id}/venues/',
                           self._get_headers(), json=data)
 
+    def __truncate_string(self, value, max_length):
+        if len(value) <= max_length:
+            return value
+
+        three_dots = '...'
+        three_dots_len = len(three_dots)
+
+        if max_length <= three_dots_len:
+            return value[:max_length]
+
+        space_index = value.rfind(' ', 0, max_length - three_dots_len + 1)
+        if space_index == -1:
+            return value[:max_length - three_dots_len] + three_dots
+
+        return value[:space_index] + three_dots
+
     def _update_info(self, event_id, listed, shareable, venue_id, event_logo_id, summary):
         data = {
             'event': {
@@ -96,7 +112,8 @@ class Eventbrite:
                 'logo': {
                     'id': event_logo_id
                 },
-                'summary': summary
+                'summary': self.__truncate_string(summary, 140)
+                # A summary up to 140 characters that describes the most important details of your event.
             }
         }
 
@@ -180,7 +197,7 @@ class Eventbrite:
         }
 
         result = self._post(f'https://www.eventbriteapi.com/v3/events/{event_id}/structured_content/{version_number}',
-                       self._get_headers(), json=data)
+                            self._get_headers(), json=data)
         return result
 
     def _add_question(self, event_id, data):
